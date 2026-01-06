@@ -19,7 +19,10 @@ import { getNotifies } from "./redux/actions/notifyAction";
 import AdminDashboard from "./pages/adminDashboard";
 import { GLOBALTYPES } from "./redux/actions/globalTypes";
 import SocketClient from "./SocketClient";
+<<<<<<< HEAD
 import { BASE_URL } from "./utils/config";
+=======
+>>>>>>> 2cf75d361070397fbe1a829029dd838ca87e7c73
 
 function App() {
   const { auth, status, modal, userType } = useSelector((state) => state);
@@ -28,7 +31,11 @@ function App() {
   useEffect(() => {
     dispatch(refreshToken());
 
+<<<<<<< HEAD
     const socket = io("https://instabook-server-production.up.railway.app");
+=======
+    const socket = io();
+>>>>>>> 2cf75d361070397fbe1a829029dd838ca87e7c73
 
     console.log("socket");
     console.log(socket);

@@ -1,5 +1,9 @@
 {
   "name": "client",
+<<<<<<< HEAD
+=======
+  "proxy": "http://localhost:8080",
+>>>>>>> 2cf75d361070397fbe1a829029dd838ca87e7c73
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -52,4 +56,8 @@
       "last 1 safari version"
     ]
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2cf75d361070397fbe1a829029dd838ca87e7c73
